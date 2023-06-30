@@ -1,0 +1,79 @@
+line: 45
+	$retVal: Array
+(
+    [shortedUrl] => /link/bb54df
+)
+
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => /link/62ca45
+)
+
+
+	env('APP_URL'): NULL
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/55ca21
+)
+
+
+	env('APP_URL'): 'http://localhost'
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/55ca21
+)
+
+
+	env('APP_URL'): 'http://localhost'
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/55ca21
+)
+
+
+	env('APP_URL'): 'http://localhost'
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/55ca21
+)
+
+
+	env('APP_URL'): 'http://localhost'
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/9d5ef2
+)
+
+
+	env('APP_URL'): 'http://localhost'
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/f11201
+)
+
+
+	env('APP_URL'): 'http://localhost'
+
+line: 48
+	$retVal: Array
+(
+    [shortedUrl] => http://localhost/link/109cae
+)
+
+
+	env('APP_URL'): 'http://localhost'
+

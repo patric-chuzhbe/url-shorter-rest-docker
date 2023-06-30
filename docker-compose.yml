@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: url-shorter-app-rest-docker
+        volumes:
+            - ./:/var/www/html
+            - db-data-url-shorter-app-rest-docker:/var/lib/mysql
+        ports:
+            - 80:80
+            - 3306:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: 12345
+            MYSQL_DATABASE: url_shorter
+            MYSQL_PASSWORD: 12345
+
+volumes:
+    db-data-url-shorter-app-rest-docker: {}
